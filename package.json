@@ -1,0 +1,37 @@
+{
+  "name": "ssi-uma-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prototype for Verifiable Credential verification with issuer trust assessment through UMA Optimistic Oracle V3.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.7",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^26.2.0",
+    "hardhat": "^3.12.0",
+    "typescript": "~6.0.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1",
+    "@uma/core": "^2.62.2",
+    "@veramo/core": "^7.0.0",
+    "@veramo/credential-jwt": "^7.0.0",
+    "@veramo/credential-w3c": "^7.0.0",
+    "@veramo/did-manager": "^7.0.0",
+    "@veramo/did-provider-key": "^7.0.0",
+    "@veramo/did-resolver": "^7.0.0",
+    "@veramo/key-manager": "^7.0.0",
+    "@veramo/kms-local": "^7.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
